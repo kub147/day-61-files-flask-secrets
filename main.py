@@ -14,7 +14,7 @@ class LoginForm(FlaskForm):
 
 
 app = Flask(__name__)
-app.secret_key = "any-string-you-want-just-keep-it-secret"
+app.secret_key = ".......your_pass....."
 ADMIN_MAIL = 'admin@email.com'
 ADMIN_PASS = '12345678'
 bootstrap = Bootstrap5(app)
